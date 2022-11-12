@@ -1,6 +1,3 @@
-# Image Classification
-
-생성일: 2022년 11월 8일 오후 4:57
 
 # Image Classification Project
 
