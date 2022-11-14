@@ -71,14 +71,17 @@
 
     - 성별
         - VGG16
+
 | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
 | --- | --- | --- | --- | --- | --- |
 | 1 | 128 | 0.5 | 20 | adam | 0.0001 |
     - 계절
         - VGG16
+
 | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
 | --- | --- | --- | --- | --- | --- |
 | 1 | 256 | 0.5 | 50 | adam | 0.00001|
+
     - 모델에 비해 데이터의 복잡도가 단순해서 VGG16의 성능이 높았을 거라 추측
 
 ### 🙌🏻 보완할점
