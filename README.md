@@ -64,9 +64,9 @@
 - 각 라벨의 best model
     - 스타일
         - VGG16
-| hidden layer | # of nodes | drop out | epochs | optimizer | learning rate |
+| hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
 | --- | --- | --- | --- | --- | --- |
-| 1 | 128 | 0.5 | 30 | adam | 0.0001
+| 1 | 128 | 0.5 | 30 | adam | 0.0001 |
 
     - 성별
         - VGG16
