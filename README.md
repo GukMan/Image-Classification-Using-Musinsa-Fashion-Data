@@ -90,5 +90,5 @@
 - 데이터 획일화 방지를 위한 variation 부여
 - adam 말고 다른 최신의 optimizer 사용
 
-##참고
+###참고
 
