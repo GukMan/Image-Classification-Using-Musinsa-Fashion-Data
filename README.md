@@ -64,7 +64,8 @@
 | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
 | --- | --- | --- | --- | --- | --- |
 | 1 | 128 | 0.5 | 20 | adam | 0.0001 |
-    - 계절
+   
+   - 계절
         - VGG16
 
 | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
@@ -79,5 +80,5 @@
 - 데이터 획일화 방지를 위한 variation 부여
 - adam 말고 다른 최신의 optimizer 사용
 
-###참고
+### 참고
 
