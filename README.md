@@ -87,6 +87,6 @@
 - 계절 라벨링에서 피부색을 추출할때 배경을 검은색이 아닌 좀 더 명확한(옷의 색상으로 잘 쓰이지 않는) 색상이나 무늬를 사용하여 성능 비교
 
 ### 참고
-[ResNet50 논문](https://arxiv.org/pdf/1512.03385.pdf)
-[VGG16 논문](https://arxiv.org/pdf/1409.1556.pdf%20http://arxiv.org/abs/1409.1556.pdf)
-[EfficientNet 논문](https://arxiv.org/pdf/1905.11946.pdf)
+-[ResNet50 논문](https://arxiv.org/pdf/1512.03385.pdf)
+-[VGG16 논문](https://arxiv.org/pdf/1409.1556.pdf%20http://arxiv.org/abs/1409.1556.pdf)
+-[EfficientNet 논문](https://arxiv.org/pdf/1905.11946.pdf)
