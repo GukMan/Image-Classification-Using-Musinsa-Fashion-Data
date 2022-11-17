@@ -64,7 +64,7 @@
 | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
 | --- | --- | --- | --- | --- | --- |
 | 1 | 128 | 0.5 | 20 | adam | 0.0001 |
-  
+
     - 계절
         - VGG16
 
