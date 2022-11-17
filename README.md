@@ -41,8 +41,9 @@
         - ~로 증강
 <img width="846" alt="Screenshot 2022-11-08 at 5 33 45 PM" src="https://user-images.githubusercontent.com/104626180/202327384-5682e8cb-69b1-41d1-a667-de8698842ff8.png">
 
-    - 224 X 224로 resize
-        - why ? 
+    - 224*224로 resize
+        - 옷 이미지라 작은 이미지여도 성능에 큰 영향을 안 줄것이라 
+        - 122*122, 300*300으로 변화를 줘봤지만, 224*224 일때의 성능이 제일 좋았음
 
 
 
@@ -53,6 +54,9 @@
 - 각 라벨의 best model
     - 스타일
         - VGG16
+            - node 수를 감소했을때(256->128) 성능 증가
+                - why ? 좀 더 flexible해서 data에 대해 overfit (model 복잡도 어쩌고) 이므로 node수를 줄이면 overfit도 감소(다시 정리)
+                - 64까지 감소시켰으면 좀 더 나아질 수 있었을 거라 판단
  
 | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
 | --- | --- | --- | --- | --- | --- |
@@ -67,6 +71,7 @@
 
     - 계절
         - VGG16
+            - 계절에 따라 노출도가 달라진다는 점에서 아이디어를 얻어 피부색을 추출해봤지만, 성능에 대한 개선이 없었음
 
 | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
 | --- | --- | --- | --- | --- | --- |
@@ -79,6 +84,9 @@
 - 더 많은 epoch을 사용해서 train 해보기
 - 데이터 획일화 방지를 위한 variation 부여
 - adam 말고 다른 최신의 optimizer 사용
+- 계절 라벨링에서 피부색을 추출할때 배경을 검은색이 아닌 좀 더 명확한(옷의 색상으로 잘 쓰이지 않는) 색상이나 무늬를 사용하여 성능 비교
 
 ### 참고
-
+[ResNet50 논문](https://arxiv.org/pdf/1512.03385.pdf)
+[VGG16 논문](https://arxiv.org/pdf/1409.1556.pdf%20http://arxiv.org/abs/1409.1556.pdf)
+[EfficientNet 논문](https://arxiv.org/pdf/1905.11946.pdf)
