@@ -87,17 +87,14 @@
 
 Input :
 
-    ![image](https://user-images.githubusercontent.com/114709620/203032602-7bda91fb-2796-4779-a763-55166ec33bd4.png)
+![image](https://user-images.githubusercontent.com/114709620/203032602-7bda91fb-2796-4779-a763-55166ec33bd4.png)
 
 Output :
 - 스타일 
 
 | 정답 | 예측 |
-| --- | --- |
 | 댄디 | 0.000 | 
-| --- | --- |
 | 스포츠 | 0.279 |
-| --- | --- |
 | 캐주얼 | 0.721 |
 
 
