@@ -42,7 +42,7 @@
 <img width="846" alt="Screenshot 2022-11-08 at 5 33 45 PM" src="https://user-images.githubusercontent.com/104626180/202327384-5682e8cb-69b1-41d1-a667-de8698842ff8.png">
 
     - 224*224로 resize
-        - 옷 이미지라 작은 이미지여도 성능에 큰 영향을 안 줄것이라 
+        - 옷 이미지라 작은 이미지여도 성능에 큰 영향을 안 줄것이라 가정
         - 122*122, 300*300으로 변화를 줘봤지만, 224*224 일때의 성능이 제일 좋았음
 
 
@@ -57,25 +57,26 @@
             - node 수를 감소했을때(256->128) 성능 증가
                 - why ? 좀 더 flexible해서 data에 대해 overfit (model 복잡도 어쩌고) 이므로 node수를 줄이면 overfit도 감소(다시 정리)
                 - 64까지 감소시켰으면 좀 더 나아질 수 있었을 거라 판단
+                ![vgg_1](https://user-images.githubusercontent.com/104626180/202935973-d79e59d3-e83d-4e9c-aaa9-f551568ab576.jpg)![vgg_@](https://user-images.githubusercontent.com/104626180/202935982-e6c4d611-a144-4fea-b101-1b5e477cb60b.png)
  
-| hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
-| --- | --- | --- | --- | --- | --- |
-| 1 | 128 | 0.5 | 30 | adam | 0.0001 |
+      | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
+      | --- | --- | --- | --- | --- | --- |
+      | 1 | 128 | 0.5 | 30 | adam | 0.0001 |
 
     - 성별
         - VGG16
       
-| hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
-| --- | --- | --- | --- | --- | --- |
-| 1 | 128 | 0.5 | 20 | adam | 0.0001 |
+      | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
+      | --- | --- | --- | --- | --- | --- |
+      | 1 | 128 | 0.5 | 20 | adam | 0.0001 |
 
     - 계절
         - VGG16
             - 계절에 따라 노출도가 달라진다는 점에서 아이디어를 얻어 피부색을 추출해봤지만, 성능에 대한 개선이 없었음
 
-| hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
-| --- | --- | --- | --- | --- | --- |
-| 1 | 256 | 0.5 | 50 | adam | 0.00001|
+    | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
+    | --- | --- | --- | --- | --- | --- |
+    | 1 | 256 | 0.5 | 50 | adam | 0.00001|
 
     - 모델에 비해 데이터의 복잡도가 단순해서 VGG16의 성능이 높았을 거라 추측
 
