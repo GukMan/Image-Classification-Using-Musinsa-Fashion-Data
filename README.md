@@ -57,6 +57,7 @@
             - node 수를 감소했을때(256->128) 성능 증가
                 - why ? 좀 더 flexible해서 data에 대해 overfit (model 복잡도 어쩌고) 이므로 node수를 줄이면 overfit도 감소(다시 정리)
                 - 64까지 감소시켰으면 좀 더 나아질 수 있었을 거라 판단
+                - 그림 왼쪽(node 128) 그림 오른쪽(node 256)
                 ![vgg_1](https://user-images.githubusercontent.com/104626180/202935973-d79e59d3-e83d-4e9c-aaa9-f551568ab576.jpg)
  
       | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
