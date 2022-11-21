@@ -57,7 +57,9 @@
     - 스타일
         - VGG16
             - node 수를 감소했을때(256->128) 성능 증가
-                - why ? 좀 더 flexible해서 data에 대해 overfit (model 복잡도 어쩌고) 이므로 node수를 줄이면 overfit도 감소(다시 정리)
+                - why ? Overfit을 해소하기 위해서 모델과 데이터의 복잡도를 맞춰줘야 한다고 생각
+                - VGG16 모델의 경우 우리가 가진 데이터보다 모델의 복잡도가 더 높고 flexible해서 Overfit이 일어난 상태
+                - 따라서 node수를 줄여 모델 복잡도를 낮추고, Overfit도 해소
                 - 64까지 감소시켰으면 좀 더 나아질 수 있었을 거라 판단
                 - 그림 왼쪽(node 128) 그림 오른쪽(node 256)
                 ![vgg_1](https://user-images.githubusercontent.com/104626180/202935973-d79e59d3-e83d-4e9c-aaa9-f551568ab576.jpg)
