@@ -39,7 +39,7 @@
     - 성별(남,여)과 계절(봄/가을, 여름, 겨울) 라벨 수작업
     - 불균형한 데이터로 인해 각 라벨별 증강
         - ~로 증강
-<img width="846" alt="Screenshot 2022-11-08 at 5 33 45 PM" src="https://user-images.githubusercontent.com/104626180/202327384-5682e8cb-69b1-41d1-a667-de8698842ff8.png">
+    <img width="846" alt="Screenshot 2022-11-08 at 5 33 45 PM" src="https://user-images.githubusercontent.com/104626180/202327384-5682e8cb-69b1-41d1-a667-de8698842ff8.png">
 
     - 224*224로 resize
         - 옷 이미지라 작은 이미지여도 성능에 큰 영향을 안 줄것이라 가정
