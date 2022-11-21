@@ -41,9 +41,9 @@
         - rotation, width_shift, height_shift, shear, zoom을 사용해서 증강
     <img width="846" alt="Screenshot 2022-11-08 at 5 33 45 PM" src="https://user-images.githubusercontent.com/104626180/202327384-5682e8cb-69b1-41d1-a667-de8698842ff8.png">
 
-    - 224*224로 resize
+    - 224 * 224로 resize
         - 옷 이미지라 작은 이미지여도 성능에 큰 영향을 안 줄것이라 가정
-        - 122*122, 300*300으로 변화를 줘봤지만, 224*224 일때의 성능이 제일 좋았음
+        - 122 * 122, 300 * 300으로 변화를 줘봤지만, 224 * 224 일때의 성능이 제일 좋았음
 
 
 
