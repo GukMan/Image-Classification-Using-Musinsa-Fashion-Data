@@ -57,7 +57,7 @@
             - node 수를 감소했을때(256->128) 성능 증가
                 - why ? 좀 더 flexible해서 data에 대해 overfit (model 복잡도 어쩌고) 이므로 node수를 줄이면 overfit도 감소(다시 정리)
                 - 64까지 감소시켰으면 좀 더 나아질 수 있었을 거라 판단
-                ![vgg_1](https://user-images.githubusercontent.com/104626180/202935973-d79e59d3-e83d-4e9c-aaa9-f551568ab576.jpg)![vgg_@](https://user-images.githubusercontent.com/104626180/202935982-e6c4d611-a144-4fea-b101-1b5e477cb60b.png)
+                ![vgg_1](https://user-images.githubusercontent.com/104626180/202935973-d79e59d3-e83d-4e9c-aaa9-f551568ab576.jpg)
  
       | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
       | --- | --- | --- | --- | --- | --- |
@@ -74,9 +74,9 @@
         - VGG16
             - 계절에 따라 노출도가 달라진다는 점에서 아이디어를 얻어 피부색을 추출해봤지만, 성능에 대한 개선이 없었음
 
-    | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
-    | --- | --- | --- | --- | --- | --- |
-    | 1 | 256 | 0.5 | 50 | adam | 0.00001|
+        | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
+        | --- | --- | --- | --- | --- | --- |
+        | 1 | 256 | 0.5 | 50 | adam | 0.00001|
 
     - 모델에 비해 데이터의 복잡도가 단순해서 VGG16의 성능이 높았을 거라 추측
 
