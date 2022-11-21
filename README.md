@@ -87,7 +87,7 @@
 
 Input :
 
-![image](https://user-images.githubusercontent.com/114709620/203032602-7bda91fb-2796-4779-a763-55166ec33bd4.png)
+![image](https://user-images.githubusercontent.com/114709620/203035403-b5228896-25dc-415a-b09e-82fc7b0c6569.png)
 
 Output :
 - 스타일 
