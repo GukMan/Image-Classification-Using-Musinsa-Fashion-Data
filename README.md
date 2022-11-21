@@ -11,8 +11,8 @@
 무신사 패션 데이터를 활용한 multi-label 이미지 분류
 
 ### ****📔**** 프로젝트 목적
-- 계절별 약 1000개의 이미지가 유입되지만, 현재 코디팀이 직접 스타일 분류
-- 일의 효율성을 위해 이를 자동으로 해주는 auto-labeling의 필요성 제시
+- 계절별 약 1000개의 패션 이미지가 유입되지만, 현재 무신사 내 코디 팀이 직접 카테고리 분류
+- 일의 효율성을 위해 패션의 스타일, 계절성, 성별을 분류하는 auto-labeling 서비스의 필요성 제시 
 
 ### ****💪****역할
 
@@ -39,7 +39,7 @@
     - 성별(남,여)과 계절(봄/가을, 여름, 겨울) 라벨 수작업
     - 불균형한 데이터로 인해 각 라벨별 증강
         - rotation, width_shift, height_shift, shear, zoom을 사용해서 증강
-    <img width="846" alt="Screenshot 2022-11-08 at 5 33 45 PM" src="https://user-images.githubusercontent.com/104626180/202327384-5682e8cb-69b1-41d1-a667-de8698842ff8.png">
+    <img width="853" alt="image" src="https://user-images.githubusercontent.com/114709620/203028558-aea28463-af9b-4a52-9465-ac03f21640e1.png">
 
     - 224 * 224로 resize
         - 옷 이미지라 작은 이미지여도 성능에 큰 영향을 안 줄것이라 가정
