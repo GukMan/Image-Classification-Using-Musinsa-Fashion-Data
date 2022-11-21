@@ -92,7 +92,7 @@
 ![image](https://user-images.githubusercontent.com/114709620/203035403-b5228896-25dc-415a-b09e-82fc7b0c6569.png)
 
 **Output** :
-<img src="https://user-images.githubusercontent.com/104626180/203054974-f27a26b3-0f2e-4856-b8eb-7ea2f8b297ec.png" width="700" height="280">
+<img src="https://user-images.githubusercontent.com/104626180/203054974-f27a26b3-0f2e-4856-b8eb-7ea2f8b297ec.png" width="700" height="310">
 
 
 ⇢ **Prediction** : #캐주얼 #남성 #봄/가을
