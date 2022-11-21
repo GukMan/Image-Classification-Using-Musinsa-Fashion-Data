@@ -39,7 +39,9 @@
     - 성별(남,여)과 계절(봄/가을, 여름, 겨울) 라벨 수작업
     - 불균형한 데이터로 인해 각 라벨별 증강
         - rotation, width_shift, height_shift, shear, zoom을 사용해서 증강
-    <img width="853" alt="image" src="https://user-images.githubusercontent.com/114709620/203028558-aea28463-af9b-4a52-9465-ac03f21640e1.png">
+    
+    <img width="853" alt="image" src="https://user-images.githubusercontent.com/114709620/203029298-24a06d52-a8c0-4087-9d02-a4974b1c305c.png">
+
 
     - 224 * 224로 resize
         - 옷 이미지라 작은 이미지여도 성능에 큰 영향을 안 줄것이라 가정
