@@ -65,26 +65,26 @@
                 - 그림 왼쪽(node 128) 그림 오른쪽(node 256)
                 ![vgg_1](https://user-images.githubusercontent.com/104626180/202935973-d79e59d3-e83d-4e9c-aaa9-f551568ab576.jpg)
  
-      | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
-      | --- | --- | --- | --- | --- | --- |
-      | 1 | 128 | 0.5 | 30 | adam | 0.0001 |
+                  | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
+                  | --- | --- | --- | --- | --- | --- |
+                  | 1 | 128 | 0.5 | 30 | adam | 0.0001 |
 
     - 성별
         - VGG16
-      
-      | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
-      | --- | --- | --- | --- | --- | --- |
-      | 1 | 128 | 0.5 | 20 | adam | 0.0001 |
+
+           | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
+           | --- | --- | --- | --- | --- | --- |
+           | 1 | 128 | 0.5 | 20 | adam | 0.0001 |
 
     - 계절
         - VGG16
             - 계절에 따라 노출도가 달라진다는 점에서 아이디어를 얻어 피부색을 추출해봤지만, 성능에 대한 개선이 없었음
 
-        | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
-        | --- | --- | --- | --- | --- | --- |
-        | 1 | 256 | 0.5 | 50 | adam | 0.00001|
+                | hidden layer | # of nodes | drop out | epochs | optimizer | learning rate|
+                | --- | --- | --- | --- | --- | --- |
+                | 1 | 256 | 0.5 | 50 | adam | 0.00001|
 
-    - 모델에 비해 데이터의 복잡도가 단순해서 VGG16의 성능이 높았을 거라 추측
+            - 모델에 비해 데이터의 복잡도가 단순해서 VGG16의 성능이 높았을 거라 추측
 
 ### 📊 수행 결과
 
